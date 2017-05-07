@@ -25,10 +25,10 @@ def get_input(ordinalstring):
     return int(input("Enter your " + ordinalstring + " guess: "))
 
 # Variable Initialization
-numGuesses = 3
+numGuesses = 7
 guess = -1
 minV = 1
-maxV = 10
+maxV = 100
 randNum = random.randint(minV, maxV)
 print("\nI'm thinking of an integer in the range " + str(minV) + " to " + str(maxV) + ". You have three guesses.\n")
 
